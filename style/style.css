@@ -1,0 +1,39 @@
+.navbar{
+    font-family: 'Raleway', sans-serif;
+    background-color: #ace322;
+}
+body{
+    font-family: 'Nunito', sans-serif;
+}
+.jumbotron{
+    margin-top: 5rem;
+    background-color: #e4f7e5;
+}
+.dropdown-menu{
+    background-color: #ace322;
+    border-color: transparent;
+    ;
+}
+.dropdown-item{
+    color: #ffffff
+}
+.dropdown-item:hover{
+    color:#f2eded;
+    background-color: transparent;
+}
+#mainNavbar .nav-link:hover {
+    color: #f2eded;
+}
+#mainNavbar .navbar-brand:hover{
+    color: #f2eded;
+    font-size: 1.1 rem;
+}
+.display-4{
+    font-size: 3.4rem;
+}
+.navbar-dark .navbar-nav .nav-link{
+    color: #ffffff;
+}
+#cvHead{
+    font-size: 1.1rem;
+}
