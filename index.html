@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Homepage</title>
+
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
+        integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <!-- Our Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Font Awesome JS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js"
+        integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ"
+        crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js"
+        integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY"
+        crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <!-- Sidebar Holder -->
+        <nav id="sidebar">
+            <div class="sidebar-header">
+                <div class="media d-flex align-items-center">
+                    <img class="mr-3 rounded-circle img-thumbnail shadow-sm" src="saugatBhattacharyya.jpeg"
+                        alt="Saugat Bhattacharyya">
+                </div>
+                <p class="h3">Saugat Bhattacharyya</p>
+            </div>
+            <ul class="list-unstyled components">
+                <li class="active">
+                    <a href="index.html">About Me</a>
+                </li>
+                <li>
+                    <a href="#researchSubmenu" data-toggle="collapse" aria-expanded="false"
+                        class="dropdown-toggle">Research</a>
+                    <ul class="collapse list-unstyled" id="researchSubmenu">
+                        <li>
+                            <a href="publications.html">Publications</a>
+                        </li>
+                        <li>
+                            <a href="codes.html">Codes & Softwares</a>
+                        </li>
+                        <li>
+                            <a href="projects.html">Projects</a>
+                        </li>
+                        <li>
+                            <a href="media.html">Media</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="teaching.html">Teaching</a>
+                </li>
+                <li>
+                    <a href="#communitySubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">BCI
+                        Community</a>
+                    <ul class="collapse list-unstyled" id="communitySubmenu">
+                        <li>
+                            <a href="conference.html">Upcoming Conferences</a>
+                        </li>
+                        <li>
+                            <a href="journal.html">Journal Special Issues</a>
+                        </li>
+                        <li>
+                            <a href="job.html">Upcoming Job Offers</a>
+                        </li>
+                        <li>
+                            <a href="community.html">Community Links</a>
+                        </li>
+                        <li>
+                            <a href="labs.html">labs involved in BCI Research</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Page Content Holder -->
+        <div id="content">
+            <div class="container-fluid">
+
+                <button type="button" id="sidebarCollapse" class="navbar-btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+
+            </div>
+            <h1 class="d-flex justify-content-center display-4">About Me</h1>
+            <div class="line"></div>
+            <div class="container mr-auto">
+                <p>I am currently a Lecturer in the School of Computing, Engineering & Intelligent Systems. Before that I
+                    was working as a Senior Research Officer in the Brain Computer Interfacing-Neural Engineering Lab,
+                    University of Essex, UK from July 2017 to April 2020 on strategic decision making (for individuals and
+                    groups), Collaborative Brain-computer Interfacing and Human-Machine Teaming. In between November 2015 to
+                    July 2017, I was working as post-doctoral researcher on the BCI-LIFT project at Inria Sophia-Antiplois,
+                    France on incorporating Brain-machine Interfacing (BMI) technology into Functional Electrical
+                    Stimulation (FES) based rehabilitation system. I was also a visiting scientist in the University of
+                    Montpellier, France from October 2014 to June 2015 where I was implementing Brain-computer Interfacing
+                    to control robotic systems. I obtained my Ph.D. degree on Biomedical Engineering from Jadavpur
+                    University (at Kolkata, India) in August, 2015. The main focus of my Ph.D. was to develop Brain-Machine
+                    Interface based control schemes for rehabilitation and robotic applications. Simultaneously, I have also
+                    developed principles and algorithms required for Electroencephalography (EEG) feature selection and
+                    classification. My research interests are in the area of Cognitive and Behavioural Neuroscience,
+                    Artificial Intelligence and Machine Learning and its application in Human-Machine Interaction and
+                    Neuro-Rehabilitation. I have wide expertise in developing intelligent neuro-technologies to improve
+                    rehabilitation and decision making. I currently have published 11 peer-reviewed journals and over 30
+                    book chapters and conference publications. I have been awarded two fellowships and was a co-PI on one
+                    GCRF research grant. I am also serving as an associate editor in Frontiers in Medical Technology and
+                    Frontiers in Neuroscience. In the past, I have served as an associate editor on International Conference
+                    on Intelligent Robots and Systems and Journal of Healthcare Engineering. I am an active member of IEEE,
+                    IEEE-EMBS, IEEE Brain Community, Brain Computer Interface Society and the Institute of Engineers
+                    (India). I enjoy travelling, reading sci-fi novels and comics and playing football. My favourite authors
+                    are J.R.R. Tolkien, George R.R. Martin, Isaac Asimov, Arthur Conan Doyle, Victor Hugo and Jules Verne. I
+                    am multi-lingual and can speak English, Hindi, Bengali and Assamese fluently and some French.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery CDN - Slim version (=without AJAX) -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <!-- Popper.JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"
+        integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+        crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"
+        integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+        crossorigin="anonymous"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar').toggleClass('active');
+                $(this).toggleClass('active');
+            });
+        });
+    </script>
+</body>
+
+</html>
