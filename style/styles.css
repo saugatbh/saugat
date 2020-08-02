@@ -1,15 +1,16 @@
 /*
     DEMO STYLE
 */
-@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+/* @import "https://fonts.googleapis.com/css?family=Roboto:300,400,500,600,700"; */
+@import "https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700";
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
   background-color: #eaede6;
 }
 
 p {
-  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 1rem;
   font-weight: 300;
   line-height: 1.7em;
