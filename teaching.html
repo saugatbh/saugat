@@ -1,179 +1,221 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <!-- Required meta tags -->
+<!DOCTYPE html>
+<html>
+
+<head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
-    <!--Google Fonts-->
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600&family=Raleway:wght@700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="style/style.css">
     <title>Teaching</title>
-  </head>
-  <body>
-    <!-- NAVBAR -->
-    <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-md py-0 fixed-top">
-      <a class="navbar-brand" href="index.html">SB</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-    
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mx-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">Saugat's Homepage<span class="sr-only">(current)</span></a>
-          </li>
-          <!--<li class="nav-item">
-            <a class="nav-link" href="cv.html">Curriculum Vitae</a>
-          </li>-->
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="researchDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Research
-            </a>
-            <div class="dropdown-menu" aria-labelledby="researchDropdown">
-              <a class="dropdown-item" href="publications.html">Publications</a>
-              <a class="dropdown-item" href="codes.html">Codes & Softwares</a>
-              <a class="dropdown-item" href="projects.html">Projects</a>
-              <a class="dropdown-item" href="gallery.html">Gallery</a>
+
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!-- Our Custom CSS -->
+    <link rel="stylesheet" href="style/styles.css">
+
+    <!-- Font Awesome JS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js"
+        integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ"
+        crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js"
+        integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY"
+        crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <!-- Sidebar Holder -->
+        <nav id="sidebar">
+            <div class="sidebar-header">
+                <div class="media d-flex align-items-end">
+                    <img class="mr-3 img-thumbnail shadow-sm roundimg" src="Images/saugatBhattacharyya.jpeg"
+                        alt="Saugat Bhattacharyya">
+                </div>
+                <p class="h3">Saugat Bhattacharyya</p>
             </div>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="teaching.html">Teaching</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="BCIDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              BCI Community
-            </a>
-            <div class="dropdown-menu" aria-labelledby="BCIDropdown">
-              <a class="dropdown-item" href="conferences.html">Upcoming Conferences</a>
-              <a class="dropdown-item" href="journal.html">Journal Special Issues</a>
-              <a class="dropdown-item" href="job.html">Upcoming Job Offers</a>
-              <a class="dropdown-item" href="community.html">Community Links</a>
-              <a class="dropdown-item" href="labs.html">Labs Involved in BCI Research</a>
+            <ul class="list-unstyled components">
+                <li>
+                    <a href="index.html">About Me</a>
+                </li>
+                <li>
+                    <a href="#researchSubmenu" data-toggle="collapse" aria-expanded="false"
+                        class="dropdown-toggle">Research</a>
+                    <ul class="collapse list-unstyled" id="researchSubmenu">
+                        <li>
+                            <a href="publications.html">Publications</a>
+                        </li>
+                        <li>
+                            <a href="codes.html">Codes & Softwares</a>
+                        </li>
+                        <li>
+                            <a href="projects.html">Projects</a>
+                        </li>
+                        <li>
+                            <a href="media.html">Media</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="active">
+                    <a href="teaching.html">Teaching</a>
+                </li>
+                <li>
+                    <a href="#communitySubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">BCI
+                        Community</a>
+                    <ul class="collapse list-unstyled" id="communitySubmenu">
+                        <li>
+                            <a href="conference.html">Upcoming Conferences</a>
+                        </li>
+                        <li>
+                            <a href="journal.html">Journal Special Issues</a>
+                        </li>
+                        <li>
+                            <a href="job.html">Upcoming Job Offers</a>
+                        </li>
+                        <li>
+                            <a href="community.html">Community Links</a>
+                        </li>
+                        <li>
+                            <a href="labs.html">Labs involved in BCI Research</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Page Content Holder -->
+        <div id="content">
+            <div class="container-fluid">
+                <!-- <div class="d-lg-none d-xl-block">
+                <button type="button" id="sidebarCollapse" class="navbar-btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div> -->
             </div>
-          </li>
-      </div>
-    </nav>
-    <!--
-      Tempelate to add new data
-      <div class="row mb-5">
-        <div class="col-3 col-md-2 border-dark border-right">
-          <p class="font-weight-bold d-flex justify-content-end">***DATE***</p>
+            <h1 class="d-flex justify-content-center display-4">Teaching</h1>
+            <div class="line"></div>
+            <div class="row mb-5">
+                <div class="col-3 col-md-2 border-dark border-right">
+                  <p class="font-weight-bold d-flex justify-content-end">2020-2021 (Upcoming)</p>
+                </div>
+                <div class="col-9 col-md-10">
+                  <p id="cvHead" class="lead text-justify"> Lecturer, ULSTER UNIVERSITY, United Kingdom</p>
+                  <p class="text-muted"><i class="fas fa-caret-right"></i> COM808 : Operating Systems</p>
+                  <p class="text-muted"><i class="fas fa-caret-right"></i> COM561 : Concurrent and Distributed Systems</p>
+                </div>
+              </div>
+        
+              <div class="row mb-5">
+                <div class="col-3 col-md-2 border-dark border-right">
+                  <p class="font-weight-bold d-flex justify-content-end">Autumn 2019</p>
+                </div>
+                <div class="col-9 col-md-10">
+                  <p id="cvHead" class="lead text-justify"> Graduate Laboratory Assistant, UNIVERSITY OF ESSEX, United Kingdom</p>
+                  <p class="text-muted"><i class="fas fa-caret-right"></i> CE151 : Introduction to Programming</p>
+                  <p class="text-muted"><i class="fas fa-caret-right"></i> CE320 : Large Scale Software Systems and Extreme Programming</p>
+                </div>
+              </div>
+        
+              <div class="row mb-5">
+                <div class="col-3 col-md-2 border-dark border-right">
+                  <p class="font-weight-bold d-flex justify-content-end">Autumn 2016 </p>
+                </div>
+                <div class="col-9 col-md-10">
+                  <p id="cvHead" class="lead text-justify"> Visiting Lecturer, UNIVERSITÉ DE MONTPELLIER II, France</p>
+                  <p class="text-muted"><i class="fas fa-caret-right"></i> HMESN321 : Introduction to Brain-computer Interfacing, Neuroprostheses II</p>
+                  <p class="text-muted"><i class="fas fa-caret-right"></i> Master STIC (Equivalent to Master of Engineering course)</p>
+                </div>
+              </div>
+        
+              <!--
+              <div class="row mb-5">
+                <div class="col-3 col-md-2 border-dark border-right">
+                  <p class="font-weight-bold d-flex justify-content-end">2012</p>
+                  <p class="font-weight-bold d-flex justify-content-end">2015</p>
+                </div>
+                <div class="col-9 col-md-10">
+                  <p id="cvHead" class="lead text-justify"> Mentor, JADAVPUR UNIVERSITY, Kolkata, India</p>
+                  <p class="text-muted"><i class="fas fa-caret-right"></i> Mentored numerous under-graduate and post-graduate students on the methodologies and experimental protocols prevalent in Brain-computer Interfacing.</p>
+                </div>
+              </div>
+              -->
+        
+              <div class="row mb-5">
+                <div class="col-3 col-md-2 border-dark border-right">
+                  <p class="font-weight-bold d-flex justify-content-end">2012</p>
+                  <p class="font-weight-bold d-flex justify-content-end">2014</p>
+                </div>
+                <div class="col-9 col-md-10">
+                  <p id="cvHead" class="lead text-justify">Visiting Lecturer, M.Tech Course in Intelligent Automation And Robotics, Department of Electronics & Telecommunication Engineering, JADAVPUR UNIVERSITY, Kolkata, India</p>
+                  <p class="text-muted"><i class="fas fa-caret-right"></i> Advanced Digital Signal Processing</p>
+                  <p class="text-muted"><i class="fas fa-caret-right"></i> Digital Image and Speech Processing</p>
+                </div>
+              </div>
+        
+              <div class="row mb-5">
+                <div class="col-3 col-md-2 border-dark border-right">
+                  <p class="font-weight-bold d-flex justify-content-end">Spring 2014</p>
+                </div>
+                <div class="col-9 col-md-10">
+                  <p id="cvHead" class="lead text-justify"> Teaching Assistant, M.E. Course in Biomedical Engineering, School of Bioscience & Engineering, JADAVPUR UNIVERSITY, Kolkata, India</p>
+                  <p class="text-muted"><i class="fas fa-caret-right"></i> Medical Imaging and Image Processing</p>
+                </div>
+              </div>
+        
+              <div class="row mb-5">
+                <div class="col-3 col-md-2 border-dark border-right">
+                  <p class="font-weight-bold d-flex justify-content-end">2013</p>
+                  <p class="font-weight-bold d-flex justify-content-end">2014</p>
+                </div>
+                <div class="col-9 col-md-10">
+                  <p id="cvHead" class="lead text-justify"> Lab Instructor, M.Tech Course in Intelligent Automation and Robotics, Department of Electronics & Telecommunication Engineering, JADAVPUR UNIVERSITY, Kolkata, India</p>
+                  <p class="text-muted"><i class="fas fa-caret-right"></i> Digital Control Lab</p>
+                  <p class="text-muted"><i class="fas fa-caret-right"></i> A.I. and Robotics Lab</p>
+                </div>
+              </div>
+        
+              <div class="row mb-5">
+                <div class="col-3 col-md-2 border-dark border-right">
+                  <p class="font-weight-bold d-flex justify-content-end">2012</p>
+                  <p class="font-weight-bold d-flex justify-content-end">2014</p>
+                </div>
+                <div class="col-9 col-md-10">
+                  <p id="cvHead" class="lead text-justify"> Lab Instructor, M.E. Course in Biomedical Engineering, School of Bioscience & Engineering, JADAVPUR UNIVERSITY, Kolkata, India</p>
+                  <p class="text-muted"><i class="fas fa-caret-right"></i> Bio-instrumentation & Programming Lab</p>
+                </div>
+              </div>
+        
         </div>
-        <div class="col-9 col-md-10">
-          <p id="cvHead" class="lead text-justify"> ***FIRST LINE***</p>
-          <p class="text-muted"><i class="fas fa-caret-right"></i> ***OTHER TEXT***</p>
-        </div>
-      </div>
-      You can copy individual lines too if multiple data needs to be added
-    -->
-
-    <div class="container-fluid mt-5">
-    <h1 class="display-5 mb-3 d-flex justify-content-center">Teaching</h1>
-    <hr class="style-two">
-    <!--Add new data from here-->
-
-      <div class="row mb-5">
-        <div class="col-3 col-md-2 border-dark border-right">
-          <p class="font-weight-bold d-flex justify-content-end">2020-2021 (Upcoming)</p>
-        </div>
-        <div class="col-9 col-md-10">
-          <p id="cvHead" class="lead text-justify"> Lecturer, ULSTER UNIVERSITY, United Kingdom</p>
-          <p class="text-muted"><i class="fas fa-caret-right"></i> COM808 : Operating Systems</p>
-          <p class="text-muted"><i class="fas fa-caret-right"></i> COM561 : Concurrent and Distributed Systems</p>
-        </div>
-      </div>
-
-      <div class="row mb-5">
-        <div class="col-3 col-md-2 border-dark border-right">
-          <p class="font-weight-bold d-flex justify-content-end">Autumn 2019</p>
-        </div>
-        <div class="col-9 col-md-10">
-          <p id="cvHead" class="lead text-justify"> Graduate Laboratory Assistant, UNIVERSITY OF ESSEX, United Kingdom</p>
-          <p class="text-muted"><i class="fas fa-caret-right"></i> CE151 : Introduction to Programming</p>
-          <p class="text-muted"><i class="fas fa-caret-right"></i> CE320 : Large Scale Software Systems and Extreme Programming</p>
-        </div>
-      </div>
-
-      <div class="row mb-5">
-        <div class="col-3 col-md-2 border-dark border-right">
-          <p class="font-weight-bold d-flex justify-content-end">Autumn 2016 </p>
-        </div>
-        <div class="col-9 col-md-10">
-          <p id="cvHead" class="lead text-justify"> Visiting Lecturer, UNIVERSITÉ DE MONTPELLIER II, France</p>
-          <p class="text-muted"><i class="fas fa-caret-right"></i> HMESN321 : Introduction to Brain-computer Interfacing, Neuroprostheses II</p>
-          <p class="text-muted"><i class="fas fa-caret-right"></i> Master STIC (Equivalent to Master of Engineering course)</p>
-        </div>
-      </div>
-
-      <!--
-      <div class="row mb-5">
-        <div class="col-3 col-md-2 border-dark border-right">
-          <p class="font-weight-bold d-flex justify-content-end">2012</p>
-          <p class="font-weight-bold d-flex justify-content-end">2015</p>
-        </div>
-        <div class="col-9 col-md-10">
-          <p id="cvHead" class="lead text-justify"> Mentor, JADAVPUR UNIVERSITY, Kolkata, India</p>
-          <p class="text-muted"><i class="fas fa-caret-right"></i> Mentored numerous under-graduate and post-graduate students on the methodologies and experimental protocols prevalent in Brain-computer Interfacing.</p>
-        </div>
-      </div>
-      -->
-
-      <div class="row mb-5">
-        <div class="col-3 col-md-2 border-dark border-right">
-          <p class="font-weight-bold d-flex justify-content-end">2012</p>
-          <p class="font-weight-bold d-flex justify-content-end">2014</p>
-        </div>
-        <div class="col-9 col-md-10">
-          <p id="cvHead" class="lead text-justify">Visiting Lecturer, M.Tech Course in Intelligent Automation And Robotics, Department of Electronics & Telecommunication Engineering, JADAVPUR UNIVERSITY, Kolkata, India</p>
-          <p class="text-muted"><i class="fas fa-caret-right"></i> Advanced Digital Signal Processing</p>
-          <p class="text-muted"><i class="fas fa-caret-right"></i> Digital Image and Speech Processing</p>
-        </div>
-      </div>
-
-      <div class="row mb-5">
-        <div class="col-3 col-md-2 border-dark border-right">
-          <p class="font-weight-bold d-flex justify-content-end">Spring 2014</p>
-        </div>
-        <div class="col-9 col-md-10">
-          <p id="cvHead" class="lead text-justify"> Teaching Assistant, M.E. Course in Biomedical Engineering, School of Bioscience & Engineering, JADAVPUR UNIVERSITY, Kolkata, India</p>
-          <p class="text-muted"><i class="fas fa-caret-right"></i> Medical Imaging and Image Processing</p>
-        </div>
-      </div>
-
-      <div class="row mb-5">
-        <div class="col-3 col-md-2 border-dark border-right">
-          <p class="font-weight-bold d-flex justify-content-end">2013</p>
-          <p class="font-weight-bold d-flex justify-content-end">2014</p>
-        </div>
-        <div class="col-9 col-md-10">
-          <p id="cvHead" class="lead text-justify"> Lab Instructor, M.Tech Course in Intelligent Automation and Robotics, Department of Electronics & Telecommunication Engineering, JADAVPUR UNIVERSITY, Kolkata, India</p>
-          <p class="text-muted"><i class="fas fa-caret-right"></i> Digital Control Lab</p>
-          <p class="text-muted"><i class="fas fa-caret-right"></i> A.I. and Robotics Lab</p>
-        </div>
-      </div>
-
-      <div class="row mb-5">
-        <div class="col-3 col-md-2 border-dark border-right">
-          <p class="font-weight-bold d-flex justify-content-end">2012</p>
-          <p class="font-weight-bold d-flex justify-content-end">2014</p>
-        </div>
-        <div class="col-9 col-md-10">
-          <p id="cvHead" class="lead text-justify"> Lab Instructor, M.E. Course in Biomedical Engineering, School of Bioscience & Engineering, JADAVPUR UNIVERSITY, Kolkata, India</p>
-          <p class="text-muted"><i class="fas fa-caret-right"></i> Bio-instrumentation & Programming Lab</p>
-        </div>
-      </div>
     </div>
 
-    
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="script/script.js"></script>
-  </body>
+    <!-- jQuery CDN - Slim version (=without AJAX) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <!-- Popper.JS -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar').toggleClass('active');
+                $(this).toggleClass('active');
+            });
+        });
+    </script>
+</body>
+
 </html>
